@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Poppins:wght@200;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: opx;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #233160;
+    align-items: center;
+    background-color: #72C7D0;
+    font-family: "roboto", "work sans", sans-serif;
+    height: 50px;
+    padding: 20px 80px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonAboutMe{
+    background-color: #D7F2F2;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 20px;
+}
+
+.aboutMe{
+    color: #233160;
+}
+
+/* section basic information */
+
+.sectionBi{
+    display: flex;
+    justify-content: space-between; 
+    height: 376px;
+    width: 1420px;
+    padding: 40px 0px 0px 0px;
+}
+
+img{
+    height: 351px;
+    width: 452px;
+    margin: 25px;
+    margin-left: 80px;
+   
+   
+}
+
+.sectionBi2{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "robot", "work sans", sans-serif;
+    color: #233160;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0px 100px;
+}
+
+p{
+    font-family: "robot", "work sans", sans-serif;
+    color: #233160;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 0px 100px ; 
+    text-align: justify;
+}
+
+.p{
+    font-family: "robot", "work sans", sans-serif;
+    color: #233160;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 0px 100px;   
+    text-align: justify;
+}
+/* nav */
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #96C96A;
+    height: 100px;
+    padding: -20px;
+   
+}
+
+
+
+.ulNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 700px; 
+}
+
+a{
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    padding-top: 10px;
+   
+    
+}
+
+.pagination{
+    background-color: #72C7D0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 40px;
+    text-decoration: none;  
+    list-style: none;
+    
+}
+
+.buttonP{
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buttonsP:active{
+    transform: scale(0.98);
+    
+}
+
+
+.buttonPag{
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    
+    
+ 
+}
+
+
+/*  characters section*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    background-color:#72C7D0; 
+    padding: 40px;
+       
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7F2F2;
+    height: 510px;
+    width: 287px;
+    border-radius: 15px;
+}
+
+.charaters{
+    display: flex;
+    background-color: white;
+    height: 250px;
+    width: 246px;
+    border-radius: 15px;
+}
+
+.charatersIma{
+    display: flex;
+    justify-content: left;
+    height: 250px;
+    width: 246px;
+    border-radius: 15px;
+    margin: 0px;
+
+}
+
+h2{
+    color: #233160;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#Gender{
+    background-color: #96C96A;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 3px 20px;
+    border-radius: 30px;
+}
+
+#aboutChar{
+    color: #233160;
+    text-align: center;
+    
+}
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #96C96A;
+    font-family: 'Work sans',sans-serif;
+    color: white;
+    height: 250px;
+    padding: 160px 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    list-style: none;
+    
+}
+
+.h4{
+    color: white;
+}
+
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 5px;
+    list-style: none;
+}
+ 

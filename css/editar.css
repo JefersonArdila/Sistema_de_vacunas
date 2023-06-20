@@ -1,0 +1,7 @@
+body {
+    background-image: url('../img/vr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

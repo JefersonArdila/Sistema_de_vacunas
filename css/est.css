@@ -1,0 +1,26 @@
+body {
+    background-image: url('../img/kl.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.linea
+{
+    display: inline-block;
+}
+
+
+.frm{
+    position: relative;
+    right: 15%;
+    
+}
+
+.table{
+    position: relative;
+    left: 10%;
+    
+}

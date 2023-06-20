@@ -1,0 +1,67 @@
+@font-face{
+    font-family:  "Cooper Std Black";
+    src: url("fonts/CooperBlackStd.otd");
+}
+body{
+    background: radial-gradient(at top, rgb(120, 183, 199), rgb(33, 102, 148));
+    background-attachment: fixed    
+}
+.bg-light {
+    background-color: #f8f9fa3b!important;
+}
+.bg-gradiente{
+    background: linear-gradient(-45deg,rgb(148, 206, 221),rgb(50, 111, 192));
+}
+h1,h2,h3,h4,.nav-link{
+    font-family:  "Cooper Std Black";
+    color: #12555e
+}
+h1{
+    -webkit-text-stroke: 2px rgb(242, 248, 253);
+    color: #d8f0ee;
+}
+.btn-contáctanos{
+    position:absolute;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(172, 213, 236),rgb(136, 143, 236)), radial-gradient(rgb(150, 158, 230), white);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    color: white
+}
+.btn-contáctanos:hover{
+    text-decoration: none;
+    color: rgb(26, 48, 82);
+}
+.btn-contáctanos span{
+    padding: 7px 40px;
+    display: block
+}
+.form-control{
+    border-color:rgb(46, 103, 179)
+}
+
+
+.btn-enviar{
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgb(172, 213, 236),rgb(136, 143, 236)), radial-gradient(rgb(150, 158, 230), white);
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 10px;
+    color: white
+}
+.btn-enviar:hover{
+    text-decoration: none;
+    color: rgb(26, 48, 82);
+}
+.btn-contáctanos span{
+    padding: 7px 40px;
+    display: block
+}
+.form-control{
+    border-color:rgb(46, 103, 179)
+}
+.btn-Enviar{
+    margin-left: 45%;
+
+}

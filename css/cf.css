@@ -1,0 +1,22 @@
+body {
+    background-image: url('fondo.jpg');
+}
+
+
+.linea
+{
+    display: inline-block;
+}
+
+
+.frm{
+    position: relative;
+    right: 15%;
+    
+}
+
+.table{
+    position: relative;
+    left: 10%;
+    background-color:  red;
+}
